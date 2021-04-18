@@ -1,0 +1,201 @@
+/*
+ * General/Utility Styles
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+body {
+  margin: 0;
+  background: rgb(255, 255, 255);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.875rem;
+  color: rgb(0, 0, 0);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  font-weight: bold;
+  color: rgb(255, 89, 95);
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 600;
+}
+
+head {
+  background: #fff;
+}
+
+.hero img {
+  width: 100%;
+}
+
+h5 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+a {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+p {
+  font-weight: bold;
+}
+
+.p1 {
+  font-style: italic;
+}
+
+.logo2 {
+  float: right;
+}
+
+.part2 img {
+  width: 100%;
+}
+
+/*
+ * Button styles
+*/
+
+.button {
+  background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem 5rem;
+  border: 1px solid black;
+  border-radius: 2px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+/*
+ * Info
+*/
+
+.info {
+  background: #fff;
+  text-align: center;
+  padding: 25px;
+}
+
+.info h1 {
+  margin-bottom: 5px;
+}
+
+.info .profile {
+  margin-bottom: 24px;
+}
+
+.info .profile-details img {
+  border-radius: 50%;
+  margin-bottom: 6px;
+}
+
+.info h2.status,
+.info h2.name {
+  color: #000000;
+  margin-bottom: 3px;
+}
+
+.info h2.name {
+  font-weight: bold;
+}
+
+.info p.location {
+  margin-bottom: 20px;
+}
+
+.info .icon {
+  float: left;
+  width: 33.3%;
+}
+
+.info .icon img {
+  height: 30px;
+  margin-bottom: 3px;
+}
+
+.info .booking h2 {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 13px;
+}
+
+@media only screen and (min-width: 1060px) {
+  .container {
+    width: 1040px;
+    margin: 0 auto;
+  }
+
+  .column {
+    float: left;
+  }
+
+  .column2 {
+    float: right;
+  }
+
+  .button {
+    width: 275px;
+    margin: auto;
+  }
+
+  .info h1 {
+    margin-bottom: 11px;
+  }
+
+  .info h2 {
+    margin-bottom: 3px;
+  }
+
+  .info .profile {
+    width: 660px;
+    border-right: 1px solid #000000;
+  }
+
+  .info .booking {
+    width: 380px;
+    padding-top: 14px;
+  }
+
+  .info .profile-details {
+    width: 20%;
+  }
+
+  .info .skill-details {
+    width: 80%;
+    text-align: left;
+    padding-top: 6px;
+    padding-left: 58px;
+  }
+
+  .info .skill-details .icon {
+    width: inherit;
+    margin-right: 50px;
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+
+  .info .skill-details .icon img {
+    margin: 3px auto 3px;
+  }
+}
